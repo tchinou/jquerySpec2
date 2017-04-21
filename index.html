@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta charset="UTF-8">
+
+  <title>!!!!</title>
+<script src="jquery-3.2.0.js"></script>
+<script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css">
+<link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.structure.css">
+<link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.theme.css">
+
+<script src="functions.js"></script>
+
+</head>
+<body>
+<div id="dialog-form">
+  <form id="formEdit" title="Editer la personne">
+    <fieldset>
+      <label for="name">Nom</label>
+      <input type="text" name="name" id="nameMod" value=""></br>
+      <label for="firstName">Prenom</label>
+      <input type="text" name="prenom" id="firstNameMod" value=""></br>
+      <label for="age">Age</label>
+      <input name="age" id="ageMod" value=""></br>
+      
+    </fieldset>
+  </form>
+</div>
+<form id="person">
+
+	<label>Nom<input type="text" value="" name="nom" id="name"/></label></br>
+	
+	<label>Prenom<input type="text" value="" name="prenom" id="firstname"/></label></br>
+	
+	
+	<label>Age<input type="text" value="" name="agePerson" id="age"/></label></br>
+	
+	<button type="button" id="ok">OK</button>
+</form>
+
+<table id="table">
+	<tr id="idTr">
+		<td id="id">Id<span id="identifierDescendant">▼</span><span id="identifierAscendant">▲</span></td></br>
+		<td id="main">Nom<span id="idNameDescendant">▼</span><span id="idNameAscendant">▲</span></td>
+		<td id="firstName">Prenom<span id="idFirstNameDescendant">▼</span><span id="idFirstNameAscendant">▲</span></td>
+		<td id="tableAge">Age<span id="idAgeDescendant">▼</span><span id="idAgeAscendant">▲</span></td>
+		<td id="modify">Modification</td>
+	</tr>
+</table>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+th.headerSortUp { 
+    background-image: url(../img/small_asc.gif); 
+    background-color: #3399FF; 
+} 
+
+th.headerSortDown { 
+    background-image: url(../img/small_desc.gif); 
+    background-color: #3399FF; 
+} 

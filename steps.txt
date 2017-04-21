@@ -1,0 +1,17 @@
+1-creation du formulaire 
+
+//function createPersonOnJson()		2h
+//displayTab()						1h
+2- création de la table d'affichage (lignes & colonnes)
+
+//function sortPersonById()			1h
+//function sortPersonByName()		1h
+//function sortPersonByfirstName()	1h
+//function sortPersonByAge()		1h
+
+3- affichage du dialogue de modification après click sur le bouton edit 
+
+//function editPerson				1h
+//function deletePerson				1h
+
+comment : chiffrage approximatif
