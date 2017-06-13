@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	    <form onsubmit="return validate(this.form)" method="post">
+	       Sexe 
+	             <input type="radio" name="oradio" id="id1"  value="1"/>Homme
+	             
+	             <input type="radio" name="oradio" id="id11"  value="2"/>Femme
+	             <label id="texte1" style="display:none;">mentionnez votre sexe</label><br/>
+        
+	      
+	       <div id="div1">
+	      Nom: 
+	       <input onkeyup="verifNom()" type="text" name="nom" id="id2" size="20"/>
+	       	             <label id="texte2" style="display:none;">mentionnez votre Nom</label>
+	       <br/>
+	       </div>
+	       <div id="div2">
+	        Prénom:
+	        <input type="text" name="prenom" id="id3" size="20"onkeyup="verifPrenom()"/>
+	        	             <label id="texte3" style="display:none;" >mentionnez votre Prenom</label>
+	        
+	        <br/>
+	       </div>
+	       <div id="div3">
+	        Age:
+	         <input type="text" name="age" id="id4" size ="3" onkeyup="verifAge()"/>
+	          <label id="texte4" style="display:none;" >mentionnez votre Age</label>
+			<br/>	         
+	       </div>
+	        
+	        <input type="submit" value="valider" id="id5"  />
+	        <input type="button" value="reinitialiser" id="id6" onclick="reinit(this.form)"/> 
+	        
+	    </form>
+	<script src="firstScript.js">
+	</script>
+	</body>
+</html>
